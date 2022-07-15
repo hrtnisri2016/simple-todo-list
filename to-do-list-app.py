@@ -9,7 +9,6 @@ It's about always getting better."
 """)
 
 to_do_list = []
-user_input = 0
 
 def show_menu():
     print("""
@@ -20,7 +19,7 @@ def show_menu():
     4. Exit
     """)
 
-while user_input != 4:
+while True:
     show_menu()
     user_input = input('Choose the menu: ')
 
@@ -49,6 +48,7 @@ while user_input != 4:
                 print(f'- {item}')
     elif user_input == 4:
         print('Great job today!')
+        break
     else:
         print('Please enter only 1, 2, 3, or 4.')
 
