@@ -1,0 +1,2 @@
+# simple-todo-list
+This to-do list program was created using the Python programming language. This program benefited a lot from the project I completed for the Coursera course "Create Your First Python Program From UST," in which I learned how to make a to-do list app. After taking the freeCodeCamp course "Scientific Computing with Python," I then made some changes to this project to make it less prone to input error issues by adding a try/except structure. This is a super simple app and you can directly run it through your terminal. Enjoy!
